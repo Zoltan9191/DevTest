@@ -1,0 +1,27 @@
+<html>
+<head>
+<script src="validateReg.js"></script>
+</head>
+  
+<body>
+  <center>
+  <form action="registration.php" method="post" >
+	  <div>
+	    <br> Username: *
+        <br> <input  name="username" id="name" value="">
+	    <br> Password: *
+        <br> <input name="password" id="pass" value="" >
+		<br> Password again: *
+        <br> <input name="passwordAgain" id="passAgain" value="">
+		<br> Email: * 
+		<br> <input name="email" id="email" type="text" value="">
+		
+	    <br><button id ="validate" onclick="return Validate();" >Register </button>
+      <div>
+  </form>
+  <p>Already registered? <a href="LogIn.html">SignIn</a></p>
+  </center>
+  
+</body>
+ 
+</html>
